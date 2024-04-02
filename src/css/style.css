@@ -69,13 +69,15 @@ body {
 
 .home .imagem-fundo {
     width: 100%;
+    padding: 0px 0px 80px 0px;
     object-fit: cover;
+    background-color: #ffffff;
     /*vai adequar a imagem para que nao perca a proporção de tamanho independente do tamanho do navegador*/
 }
 
 .home .informacoes {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
