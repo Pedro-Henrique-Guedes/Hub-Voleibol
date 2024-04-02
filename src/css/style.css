@@ -9,12 +9,10 @@ body {
     /*altura*/
     background-color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     /*space-between é "espaço entre"*/
     align-items: center;
     /*alinha os itens verticalmente*/
-    padding: 0 300px;
-    /*espaçamento de 80pixel pros lados e espaçamento de 0pixel emcima e embaixo*/
     border-bottom: 1px solid #282828;
     /*define uma borda de 1 pixel, sólida com a cor cinza*/
 }
@@ -97,9 +95,4 @@ body {
     padding: 10px 30px 10px 30px;
     font-size: 20px;
     border-radius: 5px;
-}
-
-.teste {
-    background-color: #fc1000;
-    padding: 100vh;
 }
