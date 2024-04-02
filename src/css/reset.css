@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Trabalhar com largura e alturas no css*/
+}
+
+/*margin, espaçamento externo, border é borda fi tem conversa não ,padding espaçamento interno*/
+
+ul {
+    list-style-type: none;
+    /*ele vai tirar o estilo da lista*/
+}
+
+a {
+    text-decoration: none;
+    /*Decoração do texto, deixando em "none" vai deixar sem nenhuma alteração*/
+    color: inherit;
+    /*inherit significa que vai herdar as cores que vamos deixar no css*/
+}
