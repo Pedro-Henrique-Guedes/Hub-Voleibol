@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Trabalhar com largura e alturas no css*/
+}
+
+/*margin, espaçamento externo, border é borda fi tem conversa não ,padding espaçamento interno*/
+
+ul {
+    list-style-type: none;
+    /*ele vai tirar o estilo da lista*/
+}
+
+a {
+    text-decoration: none;
+    /*Decoração do texto, deixando em "none" vai deixar sem nenhuma alteração*/
+    color: inherit;
+    /*inherit significa que vai herdar as cores que vamos deixar no css*/
+}
+
+
+.quemsomos {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background-color: #FCDA1C;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.quemsomos .conteudo {
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+}
+.quemsomos .conteudo .eliel{
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+    border: 10px solid black;
+}
+
+.quemsomos .conteudo .time{
+    width: 60%;
+    height: auto;
+    opacity: 0.1;
+    border-radius: 5px;
+}
+
+.quemsomos .informacao {
+    position: absolute;
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-6%, -50%);
+}
+
+.quemsomos .informacao .titulo {
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+
+.quemsomos .informacao .texto{
+    font-size: 25px;
+    
+}
