@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Fundo{
+    background-color: black;
+    height: 500px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.Texto{
+    align-items: center;
+    height: auto;
+    width: 40%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.Titulo{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0.03em 0.1em 0.05em rgb(170, 170, 9);
+}
+.textinho { 
+    padding-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.Imagem{
+    height: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 4%;
+}
+img.Logo{
+    height: 400px;
+    width: 450px;
+}
