@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fotos{
+    background-color: black;
+    height: 550px;
+    padding-left: 18%;
+}
+.titulo{
+    color: yellow;
+    font-size: 40px;
+    padding-top: 3%;
+}
+.enquadramento{
+    display: flex;
+    padding-right: 15px;
+}
+.foto{
+    height: 150px;
+    width: 230px;
+    border: 5px solid yellow;
+}
+.imagem{
+    height: 150px;
+    width: 230px;
+}
