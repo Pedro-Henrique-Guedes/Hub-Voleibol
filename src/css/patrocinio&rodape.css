@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.patrocinadores{
+    background-color: #FCDA1C;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.titulo{
+    font-size: 30px;
+}
+.imgpatrocinadores{  
+    width: 100%;
+    padding-top: 2%;
+}
+.foto{
+    width: 85%;
+    height: 90%;
+    
+}
+.rodape{
+    width: 100%;
+    height: 40px;
+    background-color: #151515;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    height: 40px;
+}
