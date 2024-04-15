@@ -58,7 +58,7 @@ body {
     border-bottom: none;
 }
 
-.home_home {
+.home{
     display: flex;
     position: center;
     min-height: calc(100vh - 80px);
@@ -81,7 +81,7 @@ body {
     text-align: center;
 }
 
-.informacoes_home .titulo {
+.informacoes_home .titulo_home {
     font-family: 'Assistant';
     text-transform: uppercase;
     padding: 10px;
