@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .Fundo_principios{
-    background-color: black;
+    background-color: #151515;
     height: 500px;
     display:flex;
     justify-content: space-evenly;
@@ -16,10 +17,10 @@
     padding-left: 5%;
 }
 .Titulo_principios{
-    color: yellow;
+    color: #FCDA1C;
     text-align: center;
     font-size: 30px;
-    text-shadow: 0.03em 0.1em 0.05em rgb(170, 170, 9);
+    text-shadow: 0.01em 0.04em 0.10em #fff;
 }
 .textinho_principios { 
     padding-top: 30px;
@@ -38,3 +39,5 @@ img.Logo_principios{
     width: 450px;
     
 }
+
+
