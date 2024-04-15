@@ -2,38 +2,39 @@
     margin: 0;
     padding: 0;
 }
-.Fundo{
+.Fundo_principios{
     background-color: black;
     height: 500px;
     display:flex;
     justify-content: space-evenly;
 }
-.Texto{
+.Texto_principios{
     align-items: center;
     height: auto;
     width: 40%;
     padding-top: 5%;
     padding-left: 5%;
 }
-.Titulo{
+.Titulo_principios{
     color: yellow;
     text-align: center;
     font-size: 30px;
     text-shadow: 0.03em 0.1em 0.05em rgb(170, 170, 9);
 }
-.textinho { 
+.textinho_principios { 
     padding-top: 30px;
     font-size: 25px;
     color: white;
     text-align: center;
 }
-.Imagem{
+.Imagem_principios{
     height: auto;
     width: 50%;
     text-align: center;
     padding-top: 4%;
 }
-img.Logo{
+img.Logo_principios{
     height: 400px;
     width: 450px;
+    
 }

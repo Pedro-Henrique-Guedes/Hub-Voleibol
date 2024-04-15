@@ -10,19 +10,20 @@
     justify-content: center;
     text-align: center;
 }
-.titulo{
+.titulo_patrocinadores{
     font-size: 30px;
+    color: #151515;
 }
-.imgpatrocinadores{  
+.imgpatrocinadores_patrocinadores{  
     width: 100%;
     padding-top: 2%;
 }
-.foto{
+.foto_patrocinadores{
     width: 85%;
     height: 90%;
     
 }
-.rodape{
+.rodape_patrocinadores{
     width: 100%;
     height: 40px;
     background-color: #151515;
@@ -31,6 +32,6 @@
     align-items: center;
     justify-content: space-around;
 }
-.logo{
+.logo_patrocinadores{
     height: 40px;
 }

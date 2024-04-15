@@ -1,25 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    /*Trabalhar com largura e alturas no css*/
 }
-
-/*margin, espaçamento externo, border é borda fi tem conversa não ,padding espaçamento interno*/
-
-ul {
-    list-style-type: none;
-    /*ele vai tirar o estilo da lista*/
-}
-
-a {
-    text-decoration: none;
-    /*Decoração do texto, deixando em "none" vai deixar sem nenhuma alteração*/
-    color: inherit;
-    /*inherit significa que vai herdar as cores que vamos deixar no css*/
-}
-
-
 .quemsomos {
     width: 100%;
     min-height: calc(100vh - 80px);
@@ -29,7 +11,7 @@ a {
     justify-content: center;
     position: relative;
 }
-.quemsomos .conteudo {
+.conteudo_quemsomos {
     max-width: 90%;
     height: auto;
     display: flex;
@@ -38,21 +20,21 @@ a {
     gap: 100px;
     margin: 0 auto;
 }
-.quemsomos .conteudo .eliel{
+.eliel_quemsomos{
     width: 30%;
     height: auto;
     border-radius: 5px;
     border: 10px solid black;
 }
 
-.quemsomos .conteudo .time{
+.time_quemsomos{
     width: 60%;
     height: auto;
     opacity: 0.1;
     border-radius: 5px;
 }
 
-.quemsomos .informacao {
+.informacao_quemsomos {
     position: absolute;
     max-width: 40%;
     height: auto;
@@ -64,12 +46,12 @@ a {
     transform: translate(-6%, -50%);
 }
 
-.quemsomos .informacao .titulo {
+.titulo_quemsomos {
    font-size: 30px;
    margin-bottom: 30px;
 }
 
-.quemsomos .informacao .texto{
+.texto_quemsomos{
     font-size: 25px;
     
 }

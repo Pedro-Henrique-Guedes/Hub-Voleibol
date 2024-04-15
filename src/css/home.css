@@ -4,7 +4,7 @@ body {
     /*deixou as letras brancas*/
 }
 
-.cabecalho {
+.cabecalho_home {
     height: 80px;
     /*altura*/
     background-color: #ffffff;
@@ -17,19 +17,19 @@ body {
     /*define uma borda de 1 pixel, sólida com a cor cinza*/
 }
 
-.cabecalho .logo {
+.logo_home {
     display: flex;
     gap: 15px;
     /*gap é espaçamento entre os filhos*/
 }
 
-.cabecalho .menu {
+.menu_home {
     display: flex;
     gap: 70px;
     /*espaçamento entre os nomes do menu*/
 }
 
-.cabecalho .menu li a {
+.menu_home li a {
     padding: 1px;
     /*espaçamento entre os nomes mas redimensionado o "quadrado" dela*/
     color: #000000;
@@ -41,12 +41,12 @@ body {
     /**/
 }
 
-.cabecalho .menu li a:hover {
+.menu_home li a:hover {
     /*quando passar o mouse por cima, vai aplicar um estilo*/
     border-bottom: 2px solid #FCDA1C;
 }
 
-.cabecalho .menu li a.contatenos{
+.menu_home li a.contatenos{
     color: #ffffff;
     padding: 10px;
     font-size: 17px;
@@ -54,18 +54,18 @@ body {
     border-radius: 10px;
 }
 /*desativar a borda de botao do ::hover*/
-.cabecalho .menu li a.contatenos:hover{
+.menu_home li a.contatenos:hover{
     border-bottom: none;
 }
 
-.home {
+.home_home {
     display: flex;
     position: center;
     min-height: calc(100vh - 80px);
     /*vh é view hieght, altura da minha janela do navegador e -80px pq o cabecalho tamanho é de 80px, e o min-height é a altura minima*/
 }
 
-.home .imagem-fundo {
+.imagem-fundo_home {
     width: 100%;
     padding: 0px 0px 80px 0px;
     object-fit: cover;
@@ -73,7 +73,7 @@ body {
     /*vai adequar a imagem para que nao perca a proporção de tamanho independente do tamanho do navegador*/
 }
 
-.home .informacoes {
+.informacoes_home {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -81,13 +81,13 @@ body {
     text-align: center;
 }
 
-.home .informacoes .titulo {
+.informacoes_home .titulo {
     font-family: 'Assistant';
     text-transform: uppercase;
     padding: 10px;
 }
 
-.home .informacoes a{
+.informacoes_home a{
     text-transform: uppercase;
     font-family: 'Assistant';
     color: #FCDA1C;
